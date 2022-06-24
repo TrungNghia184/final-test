@@ -1,0 +1,68 @@
+.login-container {
+    border: 1px solid white;
+    margin: 0vh auto 0px auto;
+    color: rgb(17, 160, 112);
+    width: 100%;
+    height: 100vh;
+    font-size: 20px;
+    display: flex;
+    background-image: linear-gradient(180deg, rgb(234, 234, 247), rgba(9, 140, 210, 0.949));
+    justify-content: center;
+    align-items: center;
+
+    .welcome-container {
+        width: 50%;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        .navigation-buttons {
+            display: flex;
+            flex-direction: column;
+            row-gap: 30px;
+            button {
+                width: 150px;
+                height: 80px;
+                font-size: 30px;
+                color: rgb(1, 205, 137);
+                border-radius: 15px;
+                border: 1px solid white;
+                background-color: rgba(214, 235, 242, 0.842);
+                transform: translate(30px);
+            }
+            button:hover {
+                background-color: azure;
+                animation: glowing 5s linear;
+            }
+            @keyframes glowing {
+                0% {
+                    transform: translate(20px);
+                    box-sizing: border-box;
+                    box-shadow: 0px 0px 50px 5px #fbfbfb;
+                }
+                100% {
+                    background-position: 0 0;
+                }
+            }
+        }
+        .welcome-message {
+            p {
+                font-size: 70px;
+                display: inline-block;
+                color: white;
+                margin: 0px 0px 0px 20px;
+            }
+            .welcome-title {
+                color: black;
+                margin: 0px 0px 0px 20px;
+            }
+            .page-missions {
+                font-size: 20px;
+                color: rgb(74, 81, 79);
+                padding: 30px;
+            }
+        }
+    }
+    
+
+}
