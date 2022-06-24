@@ -13,12 +13,6 @@ export default function EntryPage() {
   return (
     <div className="login-container">
       <div className="welcome-container">
-        <div className="welcome-message">
-          <p className="welcome-title">Welcome to&nbsp;</p>
-          <p className="page-name">CovidGlobal</p>
-          <p className="page-missions">Our missions is to inform you the latest news about Covid-19
-          around the world and best analytical data about the destruction of the virus.</p>
-        </div>
         <div className="navigation-buttons">
           <button onClick={setSignIn}>Sign In</button>
           <button onClick={setSignUp}>Sign Up</button>
